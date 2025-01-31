@@ -64,81 +64,112 @@
 
 <body class="font-sora">
     <!-- header section -->
-    <header
-        class="w-full border-b border-b-brandBlack lg:border-b-0 bg-bgPrimary lg:flex items-center sm:h-[70px] lg:h-[100px]">
+    <header>
         <!-- navbar start -->
-        <div class="navbar px-4 justify-between text-brandBlack lg:container cursor-pointer ">
-            <div class="">
-                <a href="./index.html" class="flex items-center text-[26px]">
-                    <div class="mr-3">
-                        <img src="assets/logo-header.png" alt="logo-header">
-                    </div>
-                    <span class="hidden lg:flex">Browse<span class="text-brandColor">4</span>Pets</span>
-                </a>
-            </div>
-            <div class="hidden lg:flex">
-                <ul class="flex gap-8">
-                    <li><a href="#"
-                            class="btn bg-transparent outline-none border-none shadow-none hover:bg-transparent p-0 text-xl hover:text-brandColor font-normal">Find
-                            a
-                            pet</a>
-                    </li>
-                    <li><a href="#"
-                            class="btn bg-transparent outline-none border-none shadow-none hover:bg-transparent p-0 text-xl hover:text-brandColor font-normal">Breeds</a>
-                    </li>
-                    <li><a href="#"
-                            class="btn bg-transparent outline-none border-none shadow-none hover:bg-transparent p-0 text-xl hover:text-brandColor font-normal">Contact
-                            us</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="hidden lg:flex gap-2.5">
-
-                <a
-                    class="btn bg-transparent hover:border-none outline-none p-0 border-none shadow-none hover:bg-transparent hover:text-brandColor">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-                    </svg>
-                </a>
-                <a
-                    class="btn bg-transparent hover:border-none outline-none p-0 border-none shadow-none hover:bg-transparent hover:text-brandColor mr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                    </svg>
-                </a>
-                <a
-                    class="btn text-[20px] bg-transparent border border-brandColor hover:bg-brandColor hover:border-brandColor font-normal">
-                    Login
-                </a>
-                <a
-                    class="btn text-[20px] bg-brandColor hover:bg-transparent hover:border-brandColor border border-brandColor px-7 py-2.5 font-normal">
-                    Register
-                </a>
-            </div>
-            <!-- bar btn for small device -->
-            <div class="dropdown lg:hidden">
-                <div tabindex="0" role="button"
-                    class="btn bg-transparent shadow-none border-none hover:bg-bgSecondary lg:hidden">
-
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        class="inline-block h-5 w-5 stroke-current">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-
+        <div class="w-full border-b border-b-brandBlack lg:border-b-0 bg-bgPrimary">
+            <div
+                class="navbar px-4 justify-between text-brandBlack lg:container cursor-pointer lg:flex items-center sm:h-[70px] lg:h-[100px]">
+                <div class="">
+                    <a href="./index.html" class="flex items-center text-[26px]">
+                        <div class="mr-3">
+                            <img src="assets/logo-header.png" alt="logo-header">
+                        </div>
+                        <span class="hidden lg:flex">Browse<span class="text-brandColor">4</span>Pets</span>
+                    </a>
                 </div>
-                <ul tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                    <li><a class="hover:bg-bgPrimary">Find a pet</a></li>
-                    <li><a class="hover:bg-bgPrimary">Breeds</a></li>
-                    <li><a class="hover:bg-bgPrimary">Contact us</a></li>
-                </ul>
+                <div class="hidden lg:flex">
+                    <ul class="flex gap-8">
+                        <li><a href="#"
+                                class="btn bg-transparent outline-none border-none shadow-none hover:bg-transparent p-0 text-xl hover:text-brandColor font-normal">Find
+                                a
+                                pet</a>
+                        </li>
+                        <li><a href="#"
+                                class="btn bg-transparent outline-none border-none shadow-none hover:bg-transparent p-0 text-xl hover:text-brandColor font-normal">Breeds</a>
+                        </li>
+                        <li><a href="#"
+                                class="btn bg-transparent outline-none border-none shadow-none hover:bg-transparent p-0 text-xl hover:text-brandColor font-normal">Contact
+                                us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="hidden lg:flex gap-2.5">
+
+                    <a
+                        class="btn bg-transparent hover:border-none outline-none p-0 border-none shadow-none hover:bg-transparent hover:text-brandColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                        </svg>
+                    </a>
+                    <a
+                        class="btn bg-transparent hover:border-none outline-none p-0 border-none shadow-none hover:bg-transparent hover:text-brandColor mr-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </a>
+                    <a
+                        class="btn text-[20px] bg-transparent border border-brandColor hover:bg-brandColor hover:border-brandColor font-normal">
+                        Login
+                    </a>
+                    <a
+                        class="btn text-[20px] bg-brandColor hover:bg-transparent hover:border-brandColor border border-brandColor px-7 py-2.5 font-normal">
+                        Register
+                    </a>
+                </div>
+                <!-- bar btn for small device -->
+                <div class="dropdown lg:hidden">
+                    <div tabindex="0" role="button" title="Menu List"
+                        class="btn bg-transparent shadow-none border-none hover:bg-bgSecondary lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            class="inline-block h-5 w-5 stroke-current">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a class="hover:bg-bgPrimary">Find a pet</a></li>
+                        <li><a class="hover:bg-bgPrimary">Breeds</a></li>
+                        <li><a class="hover:bg-bgPrimary">Contact us</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </div> <!-- end -->
+
+        <!-- hero section start -->
+        <div
+            class="container my-[70px] h-[650px] md:max-h-[750px] bg-[url(./assets/cat-big.png)] bg-contain bg-no-repeat bg-center px-4 relative">
+            <div class="max-w-[772px]">
+                <h2 class="font-ADlam-Display font-normal text-2xl sm:text-4xl md:text-6xl mb-4">Pamper Your
+                    Pet,<br>
+                    Because
+                    They Deserve <br> the
+                    Bes</h2>
+                <p class="text-sm lg:text-xl text-brandBlack  leading-6 lg:leading-9 mb-6">Discover a world of treats,
+                    toys, and
+                    essentials
+                    handpicked
+                    for your furry
+                    friends. Shop now
+                    and
+                    make tails wag with joy!</p>
+                <div>
+                    <a
+                        class="btn text-[20px] bg-brandColor hover:bg-transparent hover:border-brandColor border border-brandColor px-7 py-2.5 font-normal">
+                        Find a pet
+                    </a>
+                </div>
+
+                <div
+                    class=" animate-bounce w-8 h-8 md:w-12 md:h-12 md:text-xl bg-brandColor text-brandBlack flex items-center justify-center rounded-full absolute  bottom-52 md:bottom-6 left-[50%]">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+            </div>
+        </div> <!-- end -->
     </header>
     <!-- main section -->
     <main></main>
