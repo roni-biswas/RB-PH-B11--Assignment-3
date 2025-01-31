@@ -2,3 +2,9 @@
 .dropdown .dropdown-content {
   right: 0;
 }
+
+#middle-bounce {
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
