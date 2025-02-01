@@ -160,9 +160,9 @@
                         Find a pet
                     </a>
                 </div>
-
+                <!-- bouncing boll -->
                 <div
-                    class=" animate-bounce w-8 h-8 md:w-12 md:h-12 md:text-xl bg-brandColor text-brandBlack flex items-center justify-center rounded-full absolute left-[calc(50%-16px)] md:left-[cal(50%-24px)] bottom-6">
+                    class=" animate-bounce w-8 h-8 md:w-12 md:h-12 md:text-xl bg-brandColor text-brandBlack flex items-center justify-center rounded-full absolute left-[calc(50%-16px)] md:left-[calc(50%-24px)] bottom-6">
                     <i class="fa-solid fa-arrow-down"></i>
                 </div>
             </div>
@@ -459,9 +459,87 @@
                 </div>
             </div>
         </section> <!-- end -->
+
+
     </main>
-    <!-- footer section -->
-    <footer></footer>
+
+    <!-- footer section  -->
+    <footer class="relative bg-bgSecondary py-16 pt-96 md:pt-72 mt-96 md:mt-72">
+        <!-- Footer Top Card -->
+        <div
+            class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 md:w-11/12 bg-[#FFF9F4] rounded-xl p-8">
+            <div class="flex flex-col md:flex-row md:gap-24">
+                <div class="md:max-w-[330px]">
+                    <img class="w-full" src="assets/cute-pet-mid.png" alt="">
+                </div>
+                <div>
+                    <h2 class="font-ADlam-Display text-2xl md:text-4xl text-brandBlack mb-3 md:mb-5 mt-16">Get Pawsome
+                        News!
+                    </h2>
+                    <p class="text-base md:text-xl font-normal text-brandBlack mb-4 md:mb-9">Exclusive training tips,
+                        ticks,
+                        product deals
+                        and
+                        more.</p>
+                    <input
+                        class="bg-white outline-none text-brandBlack text-base p-[18px] mb-4 md:mb-9 rounded-lg w-full md:w-[472px]"
+                        type="text" placeholder="Enter email....">
+                    <div>
+                        <button
+                            class="btn text-[20px] bg-brandColor hover:bg-transparent hover:border-brandColor border border-brandColor px-7 py-2.5 font-normal">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer content -->
+        <div class="container mx-4 relative">
+            <div class="footer p-10">
+                <nav>
+                    <div class="">
+                        <a href="./index.html" class="flex items-center text-[26px]">
+                            <div class="mr-3">
+                                <img src="assets/logo-footer.png" alt="logo-header">
+                            </div>
+                            <span class="lg:flex">Browse<span class="text-brandColor">4</span>Pets</span>
+                        </a>
+                    </div>
+                    <p class="max-w-[425px] text-xl text-[rgba(17, 17, 17, 0.7)] mt-6 font-normal">Discover a world
+                        of
+                        treats, toys,
+                        and
+                        essentials handpicked for your furry friends</p>
+                </nav>
+                <nav class="space-y-6">
+                    <a class="link link-hover text-xl hover:text-black text-brandBlack">Find a
+                        pet</a>
+                    <a class="link link-hover text-xl hover:text-black text-brandBlack">Breeds</a>
+                    <a class="link link-hover text-xl hover:text-black text-brandBlack">Contact
+                        us</a>
+                </nav>
+                <nav class="md:self-end md:justify-self-end">
+                    <h6 class="font-medium text-base text-brandBlack">Follow Us</h6>
+                    <div class="grid grid-flow-col gap-4">
+                        <a href="#" class="text-2xl text-brandBlack hover:text-black">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="text-2xl text-brandBlack hover:text-black">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-2xl text-brandBlack hover:text-black">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-2xl text-brandBlack hover:text-black">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </footer> <!-- end -->
 </body>
 
 </html>
