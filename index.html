@@ -47,9 +47,6 @@
                     'ADlam-Display': ['ADLaM Display', 'serif'],
                 },
                 extend: {
-                    // screens: {
-                    //     'xs': { 'max-width': '575px' }
-                    // },
                     colors: {
                         brandColor: '#FFDC26',
                         brandBlack: '#111111',
@@ -142,7 +139,7 @@
 
         <!-- hero section start -->
         <div
-            class="container my-[70px] h-[650px] md:max-h-[750px] bg-[url(./assets/cat-big.png)] bg-contain bg-no-repeat bg-center px-4 relative">
+            class="container mt-[70px] h-[400px] md:h-[750px] bg-[url(./assets/cat-big.png)] bg-contain xl:bg-cover bg-no-repeat bg-left-bottom px-4 relative">
             <div class="max-w-[772px]">
                 <h2 class="font-ADlam-Display font-normal text-2xl sm:text-4xl md:text-6xl mb-4">Pamper Your
                     Pet,<br>
@@ -164,15 +161,95 @@
                     </a>
                 </div>
 
-                <div id="middle-bounce"
-                    class=" animate-bounce w-8 h-8 md:w-12 md:h-12 md:text-xl bg-brandColor text-brandBlack flex items-center justify-center rounded-full absolute  bottom-56 md:bottom-6">
+                <div
+                    class=" animate-bounce w-8 h-8 md:w-12 md:h-12 md:text-xl bg-brandColor text-brandBlack flex items-center justify-center rounded-full absolute left-[calc(50%-16px)] md:left-[cal(50%-24px)] bottom-6">
                     <i class="fa-solid fa-arrow-down"></i>
                 </div>
             </div>
         </div> <!-- end -->
     </header>
     <!-- main section -->
-    <main></main>
+    <main class="container px-4">
+        <!-- category section start -->
+        <section class="mt-[140px]">
+            <h1 class="font-ADlam-Display text-2xl md:text-4xl text-brandBlack">Browse By Categories</h1>
+            <div class="mt-12 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:flex lg:flex-wrap xl:flex-nowrap gap-6">
+                <!-- card 1 -->
+                <div class="card items-center bg-bgSecondary w-full md:max-w-[200px] py-8">
+                    <div class="w-24 h-24 rounded-full bg-white flex items-center justify-center">
+                        <figure>
+                            <img src="assets/dog-cartoon.png" alt="Shoes" class="w-12" />
+                        </figure>
+                    </div>
+                    <div class="card-body items-center text-center pb-0">
+                        <h2 class="card-title text-black font-ADlam-Display text-[20px] font-normal">Dog</h2>
+                        <p class="text-base text-black">3 items</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card items-center bg-bgSecondary w-full md:max-w-[200px] py-8">
+                    <div class="w-24 h-24 rounded-full bg-white flex items-center justify-center">
+                        <figure>
+                            <img src="assets/fish-cartoon.png" alt="Shoes" class="w-12" />
+                        </figure>
+                    </div>
+                    <div class="card-body items-center text-center pb-0">
+                        <h2 class="card-title text-black font-ADlam-Display text-[20px] font-normal">Fish</h2>
+                        <p class="text-base text-black">3 items</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card items-center bg-bgSecondary w-full md:max-w-[200px] py-8">
+                    <div class="w-24 h-24 rounded-full bg-white flex items-center justify-center">
+                        <figure>
+                            <img src="assets/cat-cartoon.png" alt="Shoes" class="w-12" />
+                        </figure>
+                    </div>
+                    <div class="card-body items-center text-center pb-0">
+                        <h2 class="card-title text-black font-ADlam-Display text-[20px] font-normal">Cat</h2>
+                        <p class="text-base text-black">3 items</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card items-center bg-bgSecondary w-full md:max-w-[200px] py-8">
+                    <div class="w-24 h-24 rounded-full bg-white flex items-center justify-center">
+                        <figure>
+                            <img src="assets/bird-cartoon.png" alt="Shoes" class="w-12" />
+                        </figure>
+                    </div>
+                    <div class="card-body items-center text-center pb-0">
+                        <h2 class="card-title text-black font-ADlam-Display text-[20px] font-normal">Birds</h2>
+                        <p class="text-base text-black">3 items</p>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="card items-center bg-bgSecondary w-full md:max-w-[200px] py-8">
+                    <div class="w-24 h-24 rounded-full bg-white flex items-center justify-center">
+                        <figure>
+                            <img src="assets/cute-pet-small.png" alt="Shoes" class="w-12" />
+                        </figure>
+                    </div>
+                    <div class="card-body items-center text-center pb-0">
+                        <h2 class="card-title text-black font-ADlam-Display text-[20px] font-normal">Small pet</h2>
+                        <p class="text-base text-black">3 items</p>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="card items-center bg-bgSecondary w-full md:max-w-[200px] py-8">
+                    <div class="w-24 h-24 rounded-full bg-white flex items-center justify-center">
+                        <figure>
+                            <img src="assets/rabbit-cartoon.png" alt="Shoes" class="w-12" />
+                        </figure>
+                    </div>
+                    <div class="card-body items-center text-center pb-0">
+                        <h2 class="card-title text-black font-ADlam-Display text-[20px] font-normal">Rabit</h2>
+                        <p class="text-base text-black">3 items</p>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- end -->
+
+    </main>
     <!-- footer section -->
     <footer></footer>
 </body>
